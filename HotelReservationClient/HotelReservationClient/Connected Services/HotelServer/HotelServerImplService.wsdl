@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.hotelserver/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="HotelServerImplService" targetNamespace="http://ws.hotelserver/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/HotelServer/HotelServerImplService?xsd=1" namespace="http://ws.hotelserver/" />
+    </xsd:schema>
+  </types>
+  <message name="getServerName">
+    <part name="parameters" element="tns:getServerName" />
+  </message>
+  <message name="getServerNameResponse">
+    <part name="parameters" element="tns:getServerNameResponse" />
+  </message>
+  <message name="addRoom">
+    <part name="parameters" element="tns:addRoom" />
+  </message>
+  <message name="addRoomResponse">
+    <part name="parameters" element="tns:addRoomResponse" />
+  </message>
+  <message name="deleteRoom">
+    <part name="parameters" element="tns:deleteRoom" />
+  </message>
+  <message name="deleteRoomResponse">
+    <part name="parameters" element="tns:deleteRoomResponse" />
+  </message>
+  <message name="getReservations">
+    <part name="parameters" element="tns:getReservations" />
+  </message>
+  <message name="getReservationsResponse">
+    <part name="parameters" element="tns:getReservationsResponse" />
+  </message>
+  <message name="getRooms">
+    <part name="parameters" element="tns:getRooms" />
+  </message>
+  <message name="getRoomsResponse">
+    <part name="parameters" element="tns:getRoomsResponse" />
+  </message>
+  <message name="editRoom">
+    <part name="parameters" element="tns:editRoom" />
+  </message>
+  <message name="editRoomResponse">
+    <part name="parameters" element="tns:editRoomResponse" />
+  </message>
+  <message name="getRoom">
+    <part name="parameters" element="tns:getRoom" />
+  </message>
+  <message name="getRoomResponse">
+    <part name="parameters" element="tns:getRoomResponse" />
+  </message>
+  <message name="addReservation">
+    <part name="parameters" element="tns:addReservation" />
+  </message>
+  <message name="addReservationResponse">
+    <part name="parameters" element="tns:addReservationResponse" />
+  </message>
+  <message name="getReservation">
+    <part name="parameters" element="tns:getReservation" />
+  </message>
+  <message name="getReservationResponse">
+    <part name="parameters" element="tns:getReservationResponse" />
+  </message>
+  <message name="getRoomReservations">
+    <part name="parameters" element="tns:getRoomReservations" />
+  </message>
+  <message name="getRoomReservationsResponse">
+    <part name="parameters" element="tns:getRoomReservationsResponse" />
+  </message>
+  <message name="deleteReservation">
+    <part name="parameters" element="tns:deleteReservation" />
+  </message>
+  <message name="deleteReservationResponse">
+    <part name="parameters" element="tns:deleteReservationResponse" />
+  </message>
+  <portType name="HotelServer">
+    <operation name="getServerName">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getServerNameRequest" message="tns:getServerName" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getServerNameResponse" message="tns:getServerNameResponse" />
+    </operation>
+    <operation name="addRoom">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/addRoomRequest" message="tns:addRoom" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/addRoomResponse" message="tns:addRoomResponse" />
+    </operation>
+    <operation name="deleteRoom">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/deleteRoomRequest" message="tns:deleteRoom" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/deleteRoomResponse" message="tns:deleteRoomResponse" />
+    </operation>
+    <operation name="getReservations">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getReservationsRequest" message="tns:getReservations" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getReservationsResponse" message="tns:getReservationsResponse" />
+    </operation>
+    <operation name="getRooms">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getRoomsRequest" message="tns:getRooms" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getRoomsResponse" message="tns:getRoomsResponse" />
+    </operation>
+    <operation name="editRoom">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/editRoomRequest" message="tns:editRoom" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/editRoomResponse" message="tns:editRoomResponse" />
+    </operation>
+    <operation name="getRoom">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getRoomRequest" message="tns:getRoom" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getRoomResponse" message="tns:getRoomResponse" />
+    </operation>
+    <operation name="addReservation">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/addReservationRequest" message="tns:addReservation" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/addReservationResponse" message="tns:addReservationResponse" />
+    </operation>
+    <operation name="getReservation">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getReservationRequest" message="tns:getReservation" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getReservationResponse" message="tns:getReservationResponse" />
+    </operation>
+    <operation name="getRoomReservations">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/getRoomReservationsRequest" message="tns:getRoomReservations" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/getRoomReservationsResponse" message="tns:getRoomReservationsResponse" />
+    </operation>
+    <operation name="deleteReservation">
+      <input wsam:Action="http://ws.hotelserver/HotelServer/deleteReservationRequest" message="tns:deleteReservation" />
+      <output wsam:Action="http://ws.hotelserver/HotelServer/deleteReservationResponse" message="tns:deleteReservationResponse" />
+    </operation>
+  </portType>
+  <binding name="HotelServerImplPortBinding" type="tns:HotelServer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getServerName">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addRoom">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="deleteRoom">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getReservations">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRooms">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="editRoom">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRoom">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addReservation">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getReservation">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRoomReservations">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="deleteReservation">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="HotelServerImplService">
+    <port name="HotelServerImplPort" binding="tns:HotelServerImplPortBinding">
+      <soap:address location="http://localhost:8080/HotelServer/HotelServerImplService" />
+    </port>
+  </service>
+</definitions>

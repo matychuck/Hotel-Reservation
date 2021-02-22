@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws.hotelserver/" targetNamespace="http://ws.hotelserver/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="addReservation" type="tns:addReservation" />
+  <xs:element name="addReservationResponse" type="tns:addReservationResponse" />
+  <xs:element name="addRoom" type="tns:addRoom" />
+  <xs:element name="addRoomResponse" type="tns:addRoomResponse" />
+  <xs:element name="deleteReservation" type="tns:deleteReservation" />
+  <xs:element name="deleteReservationResponse" type="tns:deleteReservationResponse" />
+  <xs:element name="deleteRoom" type="tns:deleteRoom" />
+  <xs:element name="deleteRoomResponse" type="tns:deleteRoomResponse" />
+  <xs:element name="editRoom" type="tns:editRoom" />
+  <xs:element name="editRoomResponse" type="tns:editRoomResponse" />
+  <xs:element name="getReservation" type="tns:getReservation" />
+  <xs:element name="getReservationResponse" type="tns:getReservationResponse" />
+  <xs:element name="getReservations" type="tns:getReservations" />
+  <xs:element name="getReservationsResponse" type="tns:getReservationsResponse" />
+  <xs:element name="getRoom" type="tns:getRoom" />
+  <xs:element name="getRoomReservations" type="tns:getRoomReservations" />
+  <xs:element name="getRoomReservationsResponse" type="tns:getRoomReservationsResponse" />
+  <xs:element name="getRoomResponse" type="tns:getRoomResponse" />
+  <xs:element name="getRooms" type="tns:getRooms" />
+  <xs:element name="getRoomsResponse" type="tns:getRoomsResponse" />
+  <xs:element name="getServerName" type="tns:getServerName" />
+  <xs:element name="getServerNameResponse" type="tns:getServerNameResponse" />
+  <xs:complexType name="addRoom">
+    <xs:sequence>
+      <xs:element name="roomNumber" type="xs:int" />
+      <xs:element name="bedsAmount" type="xs:int" />
+      <xs:element name="price" type="xs:double" />
+      <xs:element minOccurs="0" name="notes" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addRoomResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getRoom">
+    <xs:sequence>
+      <xs:element name="roomId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRoomResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:room" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="room">
+    <xs:sequence>
+      <xs:element name="bedsAmount" type="xs:int" />
+      <xs:element minOccurs="0" name="notes" type="xs:string" />
+      <xs:element name="price" type="xs:double" />
+      <xs:element name="roomId" type="xs:int" />
+      <xs:element name="roomNumber" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="roomReservations" nillable="true" type="tns:reservation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reservation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+      <xs:element name="daysAmount" type="xs:int" />
+      <xs:element name="price" type="xs:double" />
+      <xs:element name="reservationId" type="xs:int" />
+      <xs:element name="roomId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addReservation">
+    <xs:sequence>
+      <xs:element name="roomId" type="xs:int" />
+      <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addReservationResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getReservation">
+    <xs:sequence>
+      <xs:element name="reservationId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getReservationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:reservation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteReservation">
+    <xs:sequence>
+      <xs:element name="reservationId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteReservationResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getServerName">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getServerNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRoomReservations">
+    <xs:sequence>
+      <xs:element name="roomId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRoomReservationsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:reservation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteRoom">
+    <xs:sequence>
+      <xs:element name="roomId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteRoomResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRooms">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getRoomsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:room" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="editRoom">
+    <xs:sequence>
+      <xs:element name="roomId" type="xs:int" />
+      <xs:element name="roomNumber" type="xs:int" />
+      <xs:element name="bedsAmount" type="xs:int" />
+      <xs:element name="price" type="xs:double" />
+      <xs:element minOccurs="0" name="notes" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="editRoomResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getReservations">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getReservationsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:reservation" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

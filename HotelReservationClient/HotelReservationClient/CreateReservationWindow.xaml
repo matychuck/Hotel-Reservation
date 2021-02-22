@@ -1,0 +1,18 @@
+﻿<Window x:Class="HotelReservationClient.CreateReservationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelReservationClient"
+        mc:Ignorable="d"
+        Title="Create Reservation" Height="200" Width="329">
+    <Grid>
+        <DatePicker x:Name="dateFrom" HorizontalAlignment="Left" Margin="22,65,0,0" VerticalAlignment="Top" Width="114"/>
+        <Label x:Name="dateFromLabel" Content="From" HorizontalAlignment="Left" Margin="22,34,0,0" VerticalAlignment="Top" Width="108"/>
+        <DatePicker x:Name="dateTo" HorizontalAlignment="Left" Margin="177,65,0,0" VerticalAlignment="Top" Width="114"/>
+        <Label x:Name="dateToLabel" Content="To" HorizontalAlignment="Left" Margin="177,34,0,0" VerticalAlignment="Top" Width="108"/>
+        <Button x:Name="makeReservationBtn" Content="Reserve" HorizontalAlignment="Left" Margin="216,125,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="MakeReservationBtn_Click"/>
+        <ComboBox x:Name="roomsNumber" HorizontalAlignment="Left" Margin="22,125,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="roomsNumberLabel" Content="Room Number" HorizontalAlignment="Left" Margin="22,99,0,0" VerticalAlignment="Top" Width="93"/>
+    </Grid>
+</Window>

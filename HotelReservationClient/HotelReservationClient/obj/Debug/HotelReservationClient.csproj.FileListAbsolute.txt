@@ -1,0 +1,50 @@
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.exe.config
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.exe
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.pdb
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csprojAssemblyReference.cache
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\MainWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\App.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient_MarkupCompile.cache
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient_MarkupCompile.lref
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\MainWindow.baml
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.g.resources
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.Properties.Resources.resources
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csproj.GenerateResource.cache
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csproj.CoreCompileInputs.cache
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.exe
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.pdb
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateRoomWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateRoomWindow.baml
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\EditRoomWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\EditRoomWindow.baml
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewRoomWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewRoomWindow.baml
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateReservationWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateReservationWindow.baml
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewReservationWindow.g.cs
+C:\Studia Magisterskie\Semestr I\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewReservationWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.exe.config
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.exe
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\bin\Debug\HotelReservationClient.pdb
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csprojAssemblyReference.cache
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateReservationWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateRoomWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\EditRoomWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\MainWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewReservationWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewRoomWindow.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\App.g.cs
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient_MarkupCompile.cache
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient_MarkupCompile.lref
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateReservationWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\CreateRoomWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\EditRoomWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\MainWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewReservationWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\ViewRoomWindow.baml
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.g.resources
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.Properties.Resources.resources
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csproj.GenerateResource.cache
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.csproj.CoreCompileInputs.cache
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.exe
+C:\Users\Agnieszka\Documents\Informatyka\studia\magisterka\RSI\projekt1\HotelReservationProject\HotelReservation\HotelReservationClient\HotelReservationClient\obj\Debug\HotelReservationClient.pdb
